@@ -15,7 +15,7 @@
 }
 #-webkit-web-inspector #toolbar {
   background: -webkit-linear-gradient(#555555, #333333) !important;
-  border-top: 5px solid #c96666 !important;
+  border-top: 5px solid #db613b !important;
   border-bottom: 1px solid #444444 !important;
   padding-top: 0 !important;
   height: 50px !important;
@@ -532,8 +532,8 @@
   background: #333 !important;
 }
 #-webkit-web-inspector .placard.selected {
-  background-image: -webkit-linear-gradient(#c96666, #6f2727) !important;
-  border-top-color: #6f2727 !important;
+  background-image: -webkit-linear-gradient(#db613b, #6a2813) !important;
+  border-top-color: #6a2813 !important;
 }
 #-webkit-web-inspector .placard .title {
   color: #CCC !important;
