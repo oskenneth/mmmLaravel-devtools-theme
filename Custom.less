@@ -10,7 +10,7 @@
 // globals
 @font:          #fff;
 @border:        #444;
-@background:    #222; // #1d1f21;
+@background:    #222;
 @current-line:  #282a2e;
 @selection:     lighten(@background, 5%);
 @foreground:    #c5c8c6;
@@ -29,33 +29,33 @@
 @statusbar-text-active: darken(#fff,15%);
 
 // html
-@html-attribute-name:  #FFF; // #BBDE57;
-@html-attribute-value: #CCC; // #E4FF9B;
-@html-comment:         #555; // #7C7C7C;
+@html-attribute-name:  #FFF;
+@html-attribute-value: #CCC;
+@html-comment:         #555;
 @html-js-node:         #C2C3C3;
-@html-link:            #E3B446; // #E3B959;
-@html-tag:             #db613b; // #E3584D;
-@html-text-node:       #CCC; // #C2C3C3;
+@html-link:            #E3B446;
+@html-tag:             #db613b;
+@html-text-node:       @html-attribute-value;
 
 // css
-@css-comment:      #7C7C7C;
-@css-keyword:      #DB925F;
-@css-number:       #DB925F;
-@css-property:     #EEC574;
-@css-selector:     #BBDE57;
+@css-comment:      #555;
+@css-keyword:      @html-link;
+@css-number:       #17CFB6;
+@css-property:     @html-attribute-value;
+@css-selector:     @html-attribute-value;
 @css-special-rule: #B094BB;
-@css-string:       #B5BC67;
-@css-url:          #EEC574;
+@css-string:       @html-link;
+@css-url:          @html-link;
 
 // javascript
-@javascript-comment:        #7C7C7C;
-@javascript-ident:          #FFFFFF;
-@javascript-keyword:        #DB925F;
-@javascript-number:         #DB925F;
+@javascript-comment:        @html-comment;
+@javascript-ident:          @html-attribute-value;
+@javascript-keyword:        @html-tag;
+@javascript-number:         @css-number;
 @javascript-property-name:  #82A1BE;
 @javascript-property-value: #C2C3C3;
 @javascript-regexp:         #C96666;
-@javascript-string:         #B5BC67;
+@javascript-string:         @html-link;
 
 // popover
 

@@ -172,10 +172,10 @@
   color: #C4C7C6 !important;
 }
 #-webkit-web-inspector .console-formatted-number {
-  color: #db925f !important;
+  color: #17cfb6 !important;
 }
 #-webkit-web-inspector .console-formatted-string {
-  color: #b5bc67 !important;
+  color: #e3b446 !important;
 }
 #-webkit-web-inspector .console-formatted-object {
   color: #7C7C7C !important;
@@ -368,35 +368,35 @@
   color: #e3b446 !important;
 }
 #-webkit-web-inspector .webkit-css-comment {
-  color: #7c7c7c !important;
+  color: #555555 !important;
 }
 #-webkit-web-inspector .webkit-css-selector,
 #-webkit-web-inspector .styles-selector,
 #-webkit-web-inspector .styles-section .selector-matches {
-  color: #bbde57 !important;
+  color: #cccccc !important;
 }
 #-webkit-web-inspector .styles-section .selector {
-  color: #d5eb97 !important;
+  color: #f2f2f2 !important;
 }
 #-webkit-web-inspector .webkit-css-property {
-  color: #eec574 !important;
+  color: #cccccc !important;
 }
 #-webkit-web-inspector .webkit-css-keyword {
-  color: #db925f !important;
+  color: #e3b446 !important;
 }
 #-webkit-web-inspector .webkit-css-number,
 #-webkit-web-inspector .properties-tree .value {
-  color: #db925f !important;
+  color: #17cfb6 !important;
 }
 #-webkit-web-inspector .webkit-css-important,
 #-webkit-web-inspector .webkit-css-at-rule {
   color: #b094bb !important;
 }
 #-webkit-web-inspector .webkit-css-string {
-  color: #b5bc67 !important;
+  color: #e3b446 !important;
 }
 #-webkit-web-inspector .webkit-css-url {
-  color: #eec574 !important;
+  color: #e3b446 !important;
 }
 #-webkit-web-inspector .sidebar-separator {
   padding: 3px 5px 5px !important;
@@ -406,19 +406,19 @@
 }
 #-webkit-web-inspector .webkit-line-content,
 #-webkit-web-inspector .webkit-javascript-ident {
-  color: #ffffff !important;
+  color: #cccccc !important;
 }
 #-webkit-web-inspector .webkit-javascript-keyword {
-  color: #db925f !important;
+  color: #db613b !important;
 }
 #-webkit-web-inspector .webkit-javascript-comment {
-  color: #7c7c7c !important;
+  color: #555555 !important;
 }
 #-webkit-web-inspector .webkit-javascript-string {
-  color: #b5bc67 !important;
+  color: #e3b446 !important;
 }
 #-webkit-web-inspector .webkit-javascript-number {
-  color: #db925f !important;
+  color: #17cfb6 !important;
 }
 #-webkit-web-inspector .webkit-javascript-regexp {
   color: #c96666 !important;
@@ -493,7 +493,7 @@
   color: #82a1be !important;
 }
 #-webkit-web-inspector .styles-selector {
-  color: #bbde57 !important;
+  color: #cccccc !important;
 }
 #-webkit-web-inspector .section .header {
   color: #CCC !important;
@@ -506,10 +506,10 @@
   text-shadow: none !important;
 }
 #-webkit-web-inspector .console-formatted-number {
-  color: #db925f !important;
+  color: #17cfb6 !important;
 }
 #-webkit-web-inspector .console-formatted-string {
-  color: #b5bc67 !important;
+  color: #e3b446 !important;
 }
 #-webkit-web-inspector .console-formatted-object,
 #-webkit-web-inspector .console-formatted-node,
