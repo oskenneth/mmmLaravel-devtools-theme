@@ -53,7 +53,7 @@
   text-shadow: none !important;
 }
 #-webkit-web-inspector #search {
-  background: #1d1f21 !important;
+  background: #222222 !important;
 }
 #-webkit-web-inspector .resources-divider-label {
   color: #ffffff !important;
@@ -63,7 +63,7 @@
 }
 #-webkit-web-inspector .status-bar {
   border-color: #444444 !important;
-  background: #1d1f21 !important;
+  background: #222222 !important;
 }
 #-webkit-web-inspector .status-bar-item {
   border-color: #444444 !important;
@@ -153,7 +153,7 @@
 }
 #-webkit-web-inspector #console-messages {
   font-family: 'DroidSansMono', Menlo, monospace !important;
-  background: #1d1f21;
+  background: #222222;
 }
 #-webkit-web-inspector #console-messages a {
   color: #666 !important;
@@ -233,7 +233,7 @@
 #-webkit-web-inspector #network-container .data-grid,
 #-webkit-web-inspector #network-container .network-summary-bar {
   color: #ffffff;
-  background: #1d1f21 !important;
+  background: #222222 !important;
   border-color: #444444 !important;
 }
 #-webkit-web-inspector #network-container th {
@@ -261,7 +261,7 @@
 #-webkit-web-inspector .pane.expanded,
 #-webkit-web-inspector #elements-content,
 #-webkit-web-inspector .resource-view.json {
-  background: #1d1f21 !important;
+  background: #222222 !important;
   font-size: 12px !important;
 }
 #-webkit-web-inspector .highlight {
@@ -271,7 +271,7 @@
   background: rgba(255, 255, 255, 0.2) !important;
 }
 #-webkit-web-inspector #elements-content .selected {
-  background-color: #242729 !important;
+  background-color: #2f2f2f !important;
 }
 #-webkit-web-inspector .styles-sidebar-separator,
 #-webkit-web-inspector .pane > .title {
@@ -324,19 +324,19 @@
   border-color: #fff !important;
 }
 #-webkit-web-inspector .metrics .position {
-  background: #35393c !important;
+  background: #3c3c3c !important;
 }
 #-webkit-web-inspector .metrics .margin {
-  background: #4d5257 !important;
+  background: #555555 !important;
 }
 #-webkit-web-inspector .metrics .border {
-  background: #656c72 !important;
+  background: #6f6f6f !important;
 }
 #-webkit-web-inspector .metrics .padding {
-  background: #7d858d !important;
+  background: #888888 !important;
 }
 #-webkit-web-inspector .metrics .content {
-  background: #989fa5 !important;
+  background: #a2a2a2 !important;
 }
 #-webkit-web-inspector .metrics .label,
 #-webkit-web-inspector .metrics .top,
@@ -346,26 +346,26 @@
   color: #fff !important;
 }
 #-webkit-web-inspector .webkit-html-comment {
-  color: #7c7c7c !important;
+  color: #555555 !important;
 }
 #-webkit-web-inspector .webkit-html-tag {
-  color: #e3584d !important;
+  color: #db613b !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-name {
-  color: #bbde57 !important;
+  color: #ffffff !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-value {
-  color: #e4ff9b !important;
+  color: #cccccc !important;
 }
 #-webkit-web-inspector .webkit-html-text-node .webkit-html-css-node {
-  color: #c2c3c3 !important;
+  color: #cccccc !important;
 }
 #-webkit-web-inspector .webkit-html-js-node {
   color: #c2c3c3 !important;
 }
 #-webkit-web-inspector .webkit-html-resource-link,
 #-webkit-web-inspector .webkit-html-external-link {
-  color: #e3b959 !important;
+  color: #e3b446 !important;
 }
 #-webkit-web-inspector .webkit-css-comment {
   color: #7c7c7c !important;
@@ -400,7 +400,7 @@
 }
 #-webkit-web-inspector .sidebar-separator {
   padding: 3px 5px 5px !important;
-  background: #242729 !important;
+  background: #2f2f2f !important;
   color: #b3b3b3 !important;
   text-shadow: none !important;
 }
@@ -446,7 +446,7 @@
   background-color: #000 !important;
 }
 #-webkit-web-inspector .styles-section.read-only {
-  background: #242729 !important;
+  background: #2f2f2f !important;
 }
 #-webkit-web-inspector .styles-section,
 #-webkit-web-inspector .subtitle {
@@ -523,7 +523,7 @@
   color: #c96666 !important;
 }
 #-webkit-web-inspector .styles-element-state-pane {
-  background: #242729 !important;
+  background: #2f2f2f !important;
 }
 #-webkit-web-inspector .placard:nth-of-type(2n) {
   background: #333 !important;
@@ -579,8 +579,8 @@
   border-radius: 5px !important;
 }
 #-webkit-web-inspector .webkit-execution-line.webkit-line-content {
-  background-color: #242729 !important;
-  outline: 1px solid #000000 !important;
+  background-color: #2f2f2f !important;
+  outline: 1px solid #090909 !important;
 }
 body.compact .help-window-outer {
   top: 50px !important;
