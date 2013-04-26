@@ -1,8 +1,8 @@
-# mnml Theme
+# mmmLaravel Theme
 A not so minimal theme for the Chrome Developer Tools.  
 Modifies Elements and Console view, other views are on the way.
 
-Tested on Mac.
+Tested on Mac and Arch Linux
 
 ## Installation 
 Just locate the `User Stylesheets` directory and override the `Custom.css`:
@@ -17,5 +17,7 @@ Just locate the `User Stylesheets` directory and override the `Custom.css`:
 Feel free to fork and customize the theme to your needs. Missing some selectors? Just navigate Chrome to `chrome-devtools://devtools/devTools.css` and get a detailed list of nearly all possible selectors and their default styles.
 
 ## Screenshots
-![Screenshot](https://raw.github.com/frontdevDE/mnml-devtools-theme/master/ressources/screenshot.png)
-![Screenshot1](https://raw.github.com/frontdevDE/mnml-devtools-theme/master/ressources/screenshot1.png)
+![Screenshot Elements](ressources/screenshot-elements.png)
+![Screenshot Network](ressources/screenshot-network.png)
+![Screenshot Resources](ressources/screenshot-resources.png)
+![Screenshot Sources](ressources/screenshot-sources.png)
