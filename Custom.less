@@ -75,10 +75,9 @@
 #-webkit-web-inspector {
 
     ::selection {
-	background: lighten(@background, 50%);
+        background: lighten(@background, 50%);
         opacity: 1;
     }
-    
     
     //Toolbar Styles
     #toolbar {
@@ -86,7 +85,7 @@
         border-top: 5px solid @toolbar-border-top !important;
         border-bottom: 1px solid @toolbar-border-bottom !important;
         padding-top: 0 !important;
-	height: @toolbar-height !important;
+        height: @toolbar-height !important;
         .toolbar-label {
             color: @toolbar-label !important;
         }
@@ -94,34 +93,30 @@
             color: @toolbar-label-active !important;
         }
         .toolbar-item{
-	    padding: 2px 15px !important;
+            padding: 2px 15px !important;
             &.toggleable.toggled-on {
                 background: @toolbar-bg-active !important;
-		padding: 0px 13px !important;
+                padding: 0px 13px !important;
             }
             &.close-left {  
                 padding-right: 22px !important;
             }
         }
-
+        
     }
-
+    
     &.show-toolbar-icons {
-	#toolbar {
-	    height: @toolbar-height + 32 !important;
-	    .toolbar-item {
-		&.toggleable.toggled-on {
-		    padding: 5px 13px !important;
-		}
-	    }
-	}
-	#main {
-	    top: @toolbar-height + 32 !important;
-	}
-	}
-	#main {
-	    top: @toolbar-height + 32 !important;
-	}
+        #toolbar {
+            height: @toolbar-height + 32 !important;
+            .toolbar-item {
+                &.toggleable.toggled-on {
+                    padding: 5px 13px !important;
+                }
+            }
+        }
+        #main {
+            top: @toolbar-height + 32 !important;
+        }
     }
     
     #toolbar-controls {
@@ -134,7 +129,7 @@
     }
     
     #main {
-	top: @toolbar-height !important;
+        top: @toolbar-height !important;
     }
     
     #search-results-matches {
@@ -809,7 +804,14 @@
       outline: 1px solid darken(@selection, 15%) !important;
     }
     
+    #bottom-status-bar-container {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAYAAAChWZ5EAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH3QQbFgYIUMYjeQAAAzdJREFUSMe11UvI1UUYBvDf0abCIk2s6CJplh9lUmCRNZhaZgQZs3GlgnQRWhSEEkQUVBJFtSrSgqKisnIzXQixoLwMJoWIC3URKth1UQvT0Ca1zXx2PJzvw1IHDpz/XN73ed95nmc6NcU7cSUuwaW4COdjDI5geshlX01RyMWpHp2a4h78iOU4gD+xv/1ewOGQy0KnaXRqigmvYCDkcqB7saY4HrsxK+Sy8XQAGIGNGIUHexdDLnvxJF6qKaopnhYAv+EdPFZTPK9PkucbN+aGXP4XiJpip6Y4oqY4sn3/ewVtYjK2Y0nI5c2ug1rS+/AqLg+5/HICCTUyX43JGMBVjdhLQi47jwPQDq3GXSGXc7sZ3wXiZ6zFvY2YwwEYiU9wM9a1/1/gMDbhWuw/LkZNcaCmeLSmuGyIoBNrigdrilN62zjE/pk1xV01xdAzv6Cm+EY3BwaDfY/1eKimOK47QevCbqzEa42gwwIIuazDCqwZjNHivIcza4pP90M9p3VhYb8qa4oTaooHaoqLT5AHaoobaoqP9FnfVlO8tdNnYRNq0/6RPoR8pkn2Cuzr14keDo3DT5iLM3E/bsAE7B7RixjLMAM3dc8PBgy5PIGDeLSfLBsBR9cUJ9UU5+EB7MFXyBiLdzE15DKpXwdGYQMuDLmM71dZTfFufIpbQi6b2tp0zMH1Dfw4bMPXjfl34JqQy+zjrHiI+1uKF7Eg5PJ+r6ngDOzAX9jb2nu0vR87mrV/FHI51HXunEb0lSGXpwaLGQrA2BZ4S8hlRk1xdDOUWa2663AZzsYWvN2q3RJy2TcUJ2qKk/Atbgu5bK0p6gyzeTkex5e4EaNbxZvb3FosxuyQy8B/sOX5eK5dx6HOMBLqYHV7qDbjm1bt7yGXw10WvhUrQi5Lh5Nkt1pqih/ibywaDsAxo8KRngDHlFFTfAvzMQ07e/d1ybGDC/AsFjVJTu2c7HNaUxyDX7Eq5LK4jwdMwe2Y1xSyq70Ln2FN5ySTD3bhHnyMmSGX9TXFaXgYERNbJ1dgVSPrH4Mmdyo6AGc17xjf5HhxI+x3+CDk8vJQnDhpAF1BpzfT2Y7X8Tl+6LbzfuMfmzV6o83chioAAAAASUVORK5CYII=);
+        background-repeat: no-repeat;
+        background-position: 95%;
+    }
 }
+
+    
 
 //Options window
 
