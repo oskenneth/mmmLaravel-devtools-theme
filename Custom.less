@@ -19,6 +19,7 @@
 @foreground:    #c5c8c6;
 
 //toolbar
+@toolbar-height: 30px;
 @toolbar-label: #fff;
 @toolbar-label-active: #fff;
 @toolbar-bg: -webkit-linear-gradient(#555, #333);
@@ -80,13 +81,12 @@
     
     
     //Toolbar Styles
-    
-     #toolbar {
+    #toolbar {
         background: @toolbar-bg !important;
         border-top: 5px solid @toolbar-border-top !important;
         border-bottom: 1px solid @toolbar-border-bottom !important;
         padding-top: 0 !important;
-        height: 50px !important;
+	height: @toolbar-height !important;
         .toolbar-label {
             color: @toolbar-label !important;
         }
@@ -94,20 +94,34 @@
             color: @toolbar-label-active !important;
         }
         .toolbar-item{
-            height: 45px !important;
-            padding: 10px 15px !important;
-            .toolbar-icon{
-                -webkit-filter: grayscale(.3);
-                -webkit-transform: scale(.9);
-            }
+	    padding: 2px 15px !important;
             &.toggleable.toggled-on {
                 background: @toolbar-bg-active !important;
-                padding: 10px 13px !important;
+		padding: 0px 13px !important;
             }
             &.close-left {  
                 padding-right: 22px !important;
             }
         }
+
+    }
+
+    &.show-toolbar-icons {
+	#toolbar {
+	    height: @toolbar-height + 32 !important;
+	    .toolbar-item {
+		&.toggleable.toggled-on {
+		    padding: 5px 13px !important;
+		}
+	    }
+	}
+	#main {
+	    top: @toolbar-height + 32 !important;
+	}
+	}
+	#main {
+	    top: @toolbar-height + 32 !important;
+	}
     }
     
     #toolbar-controls {
@@ -120,7 +134,7 @@
     }
     
     #main {
-        top: 50px !important;
+	top: @toolbar-height !important;
     }
     
     #search-results-matches {

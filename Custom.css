@@ -18,7 +18,7 @@
   border-top: 5px solid #db613b !important;
   border-bottom: 1px solid #444444 !important;
   padding-top: 0 !important;
-  height: 50px !important;
+  height: 30px !important;
 }
 #-webkit-web-inspector #toolbar .toolbar-label {
   color: #ffffff !important;
@@ -27,19 +27,23 @@
   color: #ffffff !important;
 }
 #-webkit-web-inspector #toolbar .toolbar-item {
-  height: 45px !important;
-  padding: 10px 15px !important;
-}
-#-webkit-web-inspector #toolbar .toolbar-item .toolbar-icon {
-  -webkit-filter: grayscale(0.3);
-  -webkit-transform: scale(0.9);
+  padding: 2px 15px !important;
 }
 #-webkit-web-inspector #toolbar .toolbar-item.toggleable.toggled-on {
   background: -webkit-linear-gradient(#444444, #333333) !important;
-  padding: 10px 13px !important;
+  padding: 0px 13px !important;
 }
 #-webkit-web-inspector #toolbar .toolbar-item.close-left {
   padding-right: 22px !important;
+}
+#-webkit-web-inspector.show-toolbar-icons #toolbar {
+  height: 62px !important;
+}
+#-webkit-web-inspector.show-toolbar-icons #toolbar .toolbar-item.toggleable.toggled-on {
+  padding: 5px 13px !important;
+}
+#-webkit-web-inspector.show-toolbar-icons #main {
+  top: 62px !important;
 }
 #-webkit-web-inspector #toolbar-controls {
   margin-top: 2px !important;
@@ -49,7 +53,7 @@
   margin-top: 12px !important;
 }
 #-webkit-web-inspector #main {
-  top: 50px !important;
+  top: 30px !important;
 }
 #-webkit-web-inspector #search-results-matches {
   color: #eee !important;
