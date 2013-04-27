@@ -10,7 +10,7 @@
 /*
 /**********************************************/
 #-webkit-web-inspector ::selection {
-  background: #888;
+  background: #a2a2a2;
   opacity: 1;
 }
 #-webkit-web-inspector #toolbar {
