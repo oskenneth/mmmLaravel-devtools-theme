@@ -20,6 +20,6 @@ Feel free to fork and customize the theme to your needs. Missing some selectors?
 
 ## Screenshots
 ![Screenshot Elements](ressources/screenshot-elements.png)
-![Screenshot Network](ressources/screenshot-network.png)
 ![Screenshot Resources](ressources/screenshot-resources.png)
+![Screenshot Network](ressources/screenshot-network.png)
 ![Screenshot Sources](ressources/screenshot-sources.png)
